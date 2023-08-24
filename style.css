@@ -1,0 +1,105 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+.background_image {
+  height: 100%;
+  width: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url(assets/home.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.logo {
+ 
+  margin-top: 1%;
+  padding: 0 1px;
+  cursor: pointer;
+  font-family: "Edu SA Beginner", cursive;
+  font-family: "Tangerine", cursive;
+  color: rgb(4, 248, 240);
+  font-weight: 200;
+  font-size: 400%;
+}
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgb(2, 44, 55);
+  height: 20%;
+}
+.menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu li {
+  list-style: none;
+  padding: 2%;
+}
+
+.menu a {
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1%;
+  font-weight: 800;
+}
+a:hover {
+  color: rgb(4, 248, 240);
+  text-decoration: underline;
+}
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  margin-top: 8%;
+  margin-bottom: 2%;
+  font-size: 2 0%;
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+button {
+ display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2%;
+  border-radius: 25px;
+  padding: 1%;
+  width: 13%;
+  color: #fff;
+  text-align: center;
+  font-weight: bold;
+  border-color: rgb(4, 248, 240);
+ background-color: transparent;
+  cursor: pointer;
+ transition-duration:0.5s;
+} 
+
+button:hover{
+
+  background-color:  rgb(4, 248, 240);
+}
+
+
+.btn{
+   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn_1{
+  margin-right:1%;
+}
